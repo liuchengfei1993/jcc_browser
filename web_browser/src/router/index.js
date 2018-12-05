@@ -23,5 +23,9 @@ export default new Router({
     path: '/moreInfo',
     name: 'moreInfo',
     component: _import('moreInfo/index')
+  }, {
+    path: '/login',
+    name: 'login',
+    component: _import('login')
   }]
 })

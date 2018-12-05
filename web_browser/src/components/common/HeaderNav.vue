@@ -69,7 +69,7 @@ export default {
   },
   methods: {
     toLogin() {
-      alert("跳转登录");
+      this.$router.push({ name: "login" });
     },
     navClick(to) {
       this.currentView = to;
